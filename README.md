@@ -1,7 +1,7 @@
 # DesignPatterns
 Practicing design patterns
 
-#### Creational Patterns
+### Creational Patterns
 * Often, designs start out using Factory Method (less complicated, more customizable via subclasses) and evolve toward Abstract Factory, Prototype, or Builder (more flexible, but more complex) as the designer discovers where more flexibility is needed
 * Abstract Factory, Builder and Prototype can be implemented as Singletons.
 * Builder focuses on constructing a complex object step by step. Abstract Factory creates families of product objects (either simple or complex). Builder returns the product as a final step, but the Abstract Factory returns the result immediately.
